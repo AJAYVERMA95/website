@@ -842,6 +842,10 @@
 		border-right: 0px solid #ddd;
 	}
 
+	#fun-facts .col-md-4:last-child .fun-fact{
+		border-right: 0px solid #ddd;
+	}
+
 	#fun-facts .fun-fact i{
 		margin-right: 5px;
 	}
