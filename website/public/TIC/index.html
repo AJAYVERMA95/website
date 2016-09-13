@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="google.appcache">
 <head>
 	<meta charset="UTF-8">
 
@@ -444,43 +444,8 @@
 			</div>
 		</div>
 	</section>       -->
-	<!-- /OUR TEAM -->
+	<!-- /OUR TEAM -->  
 
-
-	<!-- ABOUT US -->
-	<section id="about-us">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="about-us text-center">
-						<h4>Morem ipsum dolor sit amet.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aliquid obcaecati deleniti minus quisquam quis magnam reprehenderit quaerat molestias rerum, excepturi autem fugiat corporis quidem a ipsum quos beatae! Ut!</p>
-						<a href="" class="btn btn-send">View More</a>
-					</div>
-				</div>
-				<div class="col-sm-6 our-office">
-					<div id="office-carousel" class="carousel slide" data-ride="carousel">			
-						<div class="carousel-inner">
-							<div class="item active">
-								<img src="images/office/04.jpg" alt="">
-							</div>
-							<div class="item">
-								<img src="images/office/02.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/03.jpg" alt="">			
-							</div>
-							
-							<a class="office-carousel-left" href="#office-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-							<a class="office-carousel-right" href="#office-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-						</div>		
-					</div> <!--/#office-carousel--> 
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /ABOUT US -->
-	
 	<!-- TESTIMONIAL -->
 	<section id="testimonial">
 		<div class="container">
@@ -607,7 +572,13 @@
 	<!-- /CONTACT -->
 
 
-
+	<!-- MAP -->
+	<section id="google-map">
+		<div class="container">
+			
+		</div>
+	</section>
+	<!-- /MAP -->
 	
 
 	<!-- FOOTER -->
@@ -639,9 +610,9 @@
 
 	
 	<!-- JS -->
-	<script type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
-	<script type="text/javascript" src="js/jquery.parallax.js"></script><!-- Parallax -->
+	<script async type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
+	<script async type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
+	<script async type="text/javascript" src="js/jquery.parallax.js"></script><!-- Parallax -->
 	<script type="text/javascript" src="js/smoothscroll.js"></script><!-- Smooth Scroll -->
 	<script type="text/javascript" src="js/masonry.pkgd.min.js"></script><!-- masonry -->
 	<script type="text/javascript" src="js/jquery.fitvids.js"></script><!-- fitvids -->
@@ -651,7 +622,9 @@
 	<script type="text/javascript" src="js/jquery.isotope.min.js"></script><!-- isotope -->
 	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
 	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
-
+<!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
+	<script type="text/javascript" src='js/googleMapsApi.min.js'></script>
+	<script type="text/javascript" src="js/googleMaps.js" ></script>
 
 </body>
 </html>
