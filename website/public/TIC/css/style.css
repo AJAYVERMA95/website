@@ -42,7 +42,7 @@
 		line-height: 1.7857;
 		letter-spacing: 0.075em;
 		color: #00264d;               /*#333333   very dark grey colour body text except navbar*/
-		background-color: #afc2df;    /* #fff */
+		background-color: #afc2df;  
 	}
 
 	a { 
@@ -178,8 +178,6 @@
 	}
 
 
-
-
 /* 4. HEADER */
 
 	#header{}
@@ -191,8 +189,7 @@
 	}
 
 	.st-navbar{
-		background-color: #028fcc;  /*#568e90;    /*#f0f0f0 #fff white */ 
-		/*border-bottom: 1px solid #f0f0f0; */
+		background-color: #028fcc; 
 	}
 
 	.st-navbar ul{
@@ -282,42 +279,6 @@
 		letter-spacing:2px;
 		margin-bottom:20px;
 	}
-
-	/*.home-carousel-left, 
-	.home-carousel-right {	
-		background-color: #f0f0f0;
-		color:#000;
-		font-size: 32px;
-		height: 40px;
-		line-height: 40px;
-		margin-top: -20px;
-		position: absolute;
-		text-align: center;
-		top: 50%;
-		width: 32px;
-		z-index: 999;
-		-webkit-transition: 300ms;
-		-moz-transition: 300ms;
-		-o-transition: 300ms;
-		-ms-transition: 300ms;
-		transition: 300ms;
-	}
-
-	.home-carousel-left {
-		left:-32px;
-	}
-
-	.home-carousel-right {
-		right:-32px;
-	}
-
-	#home-carousel:hover .home-carousel-left {
-		left:0;
-	}
-
-	#home-carousel:hover .home-carousel-right {
-		right:0;
-	}  */
 
 	.home-carousel-left, 
 	.home-carousel-right {
@@ -416,7 +377,7 @@
 /* 6. MY ABOUT  */
 
 	#about{
-		background-color: #e0e0e0; /*#7ba5f0; /*#f5f5f5;*/
+		background-color: #e0e0e0; 
 		padding-top: 130px;
 		padding-bottom: 120px;
 	}
